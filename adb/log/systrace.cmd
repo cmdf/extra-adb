@@ -1,5 +1,5 @@
 :: SYSTRACE - get systrace from android device
-:: > systrace [--time|-t] [--out|-o <file>]
+:: > systrace [--time|-t <time>] [--out|-o <file>]
 @echo off
 setlocal enabledelayedexpansion
 

@@ -1,4 +1,4 @@
-:: KMSG - get kernel message from android device
+:: KMSG - get kernel message log from android device
 :: > kmsg [--out|-o <file>]
 @echo off
 setlocal enabledelayedexpansion
