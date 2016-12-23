@@ -4,9 +4,9 @@
 setlocal enabledelayedexpansion
 
 :: prepare
-set zs=
-if not "%ANDROID_SERIAL%"=="" set zs=-s
-call %~dp0adb\devices %zs%
+set s=
+if not "%ANDROID_SERIAL%"=="" set s=-s
+call %~dp0adb\devices %s%
 
 :: run command
 if "%~1"=="" goto :eof
