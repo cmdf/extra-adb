@@ -1,5 +1,5 @@
 Run shortcut adb commands in Windows Console.
-> 1. Download [zip file](https://raw.githubusercontent.com/winp/extra-bel/master/ecd.cmd).
+> 1. Download [zip file](https://github.com/winp/extra-adb/releases/download/1.0.0/eadb.zip).
 > 2. Extract it to `C:\Program_Files\Scripts`.
 > 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
